@@ -1,0 +1,12 @@
+# 通用配置文件
+
+app:
+  host: "0.0.0.0:8082"
+  debug: true
+  one_drive_url: "https://vipmail-my.sharepoint.cn"  // OneDriveUrl (国内版本:https://vipmail-my.sharepoint.cn)
+
+pgsql:
+  dsn: "host=127.0.0.1 user=postgres dbname=doratv sslmode=disable password=123456"
+  max_idle: 10 # 最大闲置链接数
+  max_open: 100 # 最大链接数
+  time_out: 4 # 超时 Hour

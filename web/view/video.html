@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+    <title>DollarKiller菜鸡开发</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/dplayer/1.25.0/DPlayer.min.css">
+    <script type="text/javascript" src="https://cdn.staticfile.org/dplayer/1.25.0/DPlayer.min.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<iframe style="display: none;" src="{{.OneDrive}}"></iframe>
+<div id="dplayer"></div>
+<script>
+    const dp = new DPlayer({
+        container: document.getElementById('dplayer'),
+        video: {
+            url: '{{.Mp4}}',
+        },
+    });
+</script>
+</body>
+</html>
