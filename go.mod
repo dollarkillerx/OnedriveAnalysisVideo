@@ -7,5 +7,6 @@ require (
 	github.com/dollarkillerx/easyutils v1.0.3
 	github.com/dollarkillerx/erguotou v0.0.21
 	github.com/jinzhu/gorm v1.9.11
-	gopkg.in/yaml.v2 v2.2.2
+	github.com/kr/pretty v0.3.0 // indirect
+	gopkg.in/yaml.v2 v2.2.8
 )
